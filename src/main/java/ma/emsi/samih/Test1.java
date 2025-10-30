@@ -22,7 +22,7 @@ public class Test1 {
                 .temperature(0.7)
                 .build();
 
-        String prompt = "Quelle est la capitale du Maroc ?";
+        String prompt = "Comment s'appelle le chat de Pierre ?";
         String response = model.chat(prompt);
 
         System.out.println("Question: " + prompt);
