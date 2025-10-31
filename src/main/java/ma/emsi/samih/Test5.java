@@ -22,9 +22,7 @@ import java.util.Scanner;
 
 public class Test5 {
 
-  interface Assistant {
-    String chat(String userMessage);
-  }
+
 
   public static void main(String[] args) {
     String llmKey = System.getenv("GEMINI_KEY");

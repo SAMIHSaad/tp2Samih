@@ -20,9 +20,7 @@ import java.time.Duration;
 public class Test4 {
 
   // Assistant conversationnel
-  interface Assistant {
-    String chat(String userMessage);
-  }
+
 
   public static void main(String[] args) {
     String llmKey = System.getenv("GEMINI_KEY");
